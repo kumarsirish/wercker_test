@@ -17,6 +17,11 @@ build:
         code: |
           echo "hello world!"
 test:
+   steps:
+     - script:
+         name: test
+         code: |
+           echo "hi"
 
 deploy:
  
