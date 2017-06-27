@@ -24,3 +24,12 @@ build:
         name: echo
         code: |
           echo "hello world!"
+ Test:
+    # Steps make up the actions in your pipeline
+    # Read more about steps on our dev center:
+    # http://devcenter.wercker.com/docs/steps/index.html
+  steps:
+    - script:
+        name: test
+        code: |
+          echo "Testing Completed!"
