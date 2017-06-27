@@ -22,16 +22,16 @@ test:
          name: test
          code: |
            echo "hi"
-           
+tpa:
+  steps:
+     - script:
+         name: tpa
+         code: |
+           echo "TPA"           
 deploy:
   steps:
      - script:
          name: deploy
          code: |
            echo "Deployed"          
- tpa:
-  steps:
-     - script:
-         name: tpa
-         code: |
-           echo "TPA"
+ 
