@@ -3,14 +3,6 @@
 # Read more about containers on our dev center on sirish
 # http://devcenter.wercker.com/docs/containers/index.html
 box: debian
-# You can also use services such as databases. Read more on our dev center:
-# http://devcenter.wercker.com/docs/services/index.html
-# services:
-    # - postgres
-    # http://devcenter.wercker.com/docs/services/postgresql.html
-
-    # - mongo
-    # http://devcenter.wercker.com/docs/services/mongodb.html
 
 # This is the build pipeline. Pipelines are the core of wercker
 # Read more about pipelines on our dev center
@@ -30,6 +22,6 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
     - script:
-        name: test
+        name: echo
         code: |
           echo "Testing Completed!"
