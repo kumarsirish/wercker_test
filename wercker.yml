@@ -24,4 +24,8 @@ test:
            echo "hi"
 
 deploy:
- 
+  steps:
+     - script:
+         name: deploy
+         code: |
+           echo "Deployed"
