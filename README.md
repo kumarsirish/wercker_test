@@ -1,1 +1,1 @@
-# wercker_test latest
+# wercker_test demo
