@@ -30,7 +30,7 @@ tpa:
            echo "TPA"           
 deploy:
    steps:
-  - script:
+      - script:
         name: deployment
         code: |
            echo "Deployed"
